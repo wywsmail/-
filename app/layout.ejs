@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title><%- title %></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="./assets/style/all.css">
+  </head>
+
+  <body>
+    <div class="container d-flex">
+      <div class="sideMenu w-25 p-4 d-flex flex-column vh-100 bg-light">
+          <h1 class="text-hide mb-3" style="background-image: url('./assets/images/logo-ANSWER.svg'); width:151px; height:40px;">ANSWER</h1>
+          <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action border-0 pl-0 bg-transparent">
+              <img class="mr-2" src="./assets/images/insert_chart-24px.svg" alt="">Dashboard
+            </a>
+            <a href="#" class="list-group-item list-group-item-action border-0 pl-0 bg-transparent"><img class="mr-2" src="./assets/images/forum-24px.svg" alt="">Question</a>
+            <a href="#" class="list-group-item list-group-item-action border-0 pl-0 bg-transparent"><img class="mr-2" src="./assets/images/assignment-24px.svg" alt="">Assignment</a>
+            <a href="#" class="list-group-item list-group-item-action border-0 pl-0 bg-transparent"><img class="mr-2" src="./assets/images/video_library-24px.svg" alt="">Course</a>
+            <a href="#" class="list-group-item list-group-item-action border-0 pl-0 bg-transparent" tabindex="-1" aria-disabled="true"><img class="mr-2" src="./assets/images/supervisor_account-24px.svg" alt="">Admin</a>
+            <a href="#" class="list-group-item list-group-item-action border-0 pl-0 bg-transparent" tabindex="-1" aria-disabled="true"><img class="mr-2" src="./assets/images/settings-24px.svg" alt="">Settings</a>
+          </div>
+          <ul class="list-unstyled mt-auto">
+            <li class="media">
+              <img src="./assets/images/andychen.jpeg" class="mr-3" style="width:40px; height:40px; border-radius: 50%;" alt="...">
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">Andy Chen</h5>
+                andy0401@mail.com
+              </div>
+            </li>
+          </ul>
+      </div>
+      <section class="w-75">
+        <%- contents %>
+      </section>
+    </div>
+
+
+
+
+
+    <script src="./assets/js/vendors.js"></script>
+    <script src="./assets/js/all.js"></script>
+  </body>
+
+</html>
